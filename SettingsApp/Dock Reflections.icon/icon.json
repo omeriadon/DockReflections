@@ -1,0 +1,123 @@
+{
+  "features" : [
+    "refractivity"
+  ],
+  "fill" : {
+    "automatic-gradient" : "extended-srgb:0.00000,0.53333,1.00000,1.00000"
+  },
+  "groups" : [
+    {
+      "blur-material" : null,
+      "layers" : [
+        {
+          "glass" : false,
+          "image-name" : "Group 1 (1).png",
+          "name" : "Group 1 (1)",
+          "position" : {
+            "scale" : 1.12,
+            "translation-in-points" : [
+              0,
+              449.6015624999999
+            ]
+          }
+        },
+        {
+          "fill-specializations" : [
+            {
+              "value" : {
+                "solid" : "extended-gray:1.00000,1.00000"
+              }
+            },
+            {
+              "appearance" : "dark",
+              "value" : "automatic"
+            }
+          ],
+          "image-name" : "Group 1.svg",
+          "name" : "Group 1",
+          "position" : {
+            "scale" : 1,
+            "translation-in-points" : [
+              0.10000000000002274,
+              443.5999999999999
+            ]
+          }
+        }
+      ],
+      "shadow" : {
+        "kind" : "neutral",
+        "opacity" : 0.6
+      },
+      "specular" : true,
+      "translucency" : {
+        "enabled" : true,
+        "value" : 0.2
+      }
+    },
+    {
+      "blend-mode" : "darken",
+      "blur-material" : 0.23,
+      "layers" : [
+        {
+          "fill" : {
+            "solid" : "extended-srgb:0.00000,0.53333,1.00000,0.00000"
+          },
+          "image-name" : "Frame 2.svg",
+          "name" : "Frame 2",
+          "position" : {
+            "scale" : 1,
+            "translation-in-points" : [
+              0,
+              -124
+            ]
+          }
+        }
+      ],
+      "refractivity" : {
+        "depth" : 0.2089453125,
+        "enabled" : true,
+        "strength" : 0.450703125
+      },
+      "shadow" : {
+        "kind" : "neutral",
+        "opacity" : 0.84
+      },
+      "translucency" : {
+        "enabled" : true,
+        "value" : 1
+      }
+    },
+    {
+      "layers" : [
+        {
+          "fill" : {
+            "automatic-gradient" : "display-p3:0.51047,0.69354,1.00000,1.00000"
+          },
+          "image-name" : "Rectangle 2.svg",
+          "name" : "Rectangle 2",
+          "position" : {
+            "scale" : 1,
+            "translation-in-points" : [
+              0,
+              100
+            ]
+          }
+        }
+      ],
+      "shadow" : {
+        "kind" : "neutral",
+        "opacity" : 0.56
+      },
+      "translucency" : {
+        "enabled" : true,
+        "value" : 0.61
+      }
+    }
+  ],
+  "supported-platforms" : {
+    "circles" : [
+      "watchOS"
+    ],
+    "squares" : "shared"
+  }
+}
