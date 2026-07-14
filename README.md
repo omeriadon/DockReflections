@@ -18,6 +18,10 @@ make clean deploy
 
 The tweak installs to `/var/ammonia/core/tweaks` and restarts Dock.
 
+## Settings app
+
+The native macOS settings app in [`SettingsApp`](SettingsApp) exposes every supported option and includes a Restart Dock button. Open `SettingsApp/DockReflectionsSettings.xcodeproj` in Xcode and run the `DockReflectionsSettings` scheme.
+
 ## Configuration
 
 Changes take effect after Dock restarts.
