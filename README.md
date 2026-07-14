@@ -1,5 +1,8 @@
 # Dock Reflections
 
+> [!WARNING]
+> You must disable SIP and Library Vaildation to run this, and you need Ammonia installed. Do not attempt running this unless you know what you are doing and the risks involved.
+
 An experimental Ammonia tweak for macOS that adds icon reflections beneath the Dock and replaces the standard running-app indicators with configurable glowing indicators.
 
 The tweak currently targets Apple Silicon and relies on private Dock implementation details. System updates can change those details.
