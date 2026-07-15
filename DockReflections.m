@@ -18,6 +18,7 @@ static CGFloat DRBottomInset = -5.0;
 static CGFloat DRReflectionScale = 0.90;
 static CGFloat DRReflectionOpacity = 1.0;
 static CGFloat DRReflectionBlurRadius = 0.0;
+
 static CGFloat DRIndicatorWidth = 12.0;
 static CGFloat DRIndicatorHeight = 6.0;
 static CGFloat DRIndicatorCornerRadius = 3.0;
