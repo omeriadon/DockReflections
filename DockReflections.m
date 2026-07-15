@@ -305,8 +305,8 @@ static void DRUpdateReflection(CALayer *tileLayer) {
     }
 
     reflection.opacity = DRReflectionOpacity;
-    reflection.filters = nil;
-    reflection.compositingFilter = nil;
+    reflection.filters = source.filters;
+    reflection.compositingFilter = source.compositingFilter;
 
     if (!DRRecordedRuntimeState) {
         DRRecordedRuntimeState = YES;
